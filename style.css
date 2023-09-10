@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;400;600;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /*---------------------------------BEGIN RESET---------------------------------*/
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -48,3 +50,39 @@ table {
 	border-spacing: 0;
 }
 /*---------------------------------END RESET---------------------------------*/
+body {
+    margin: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+i {
+    font-size: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    border: 1px solid red;
+    height: 300px;
+}
+
+.thumbnail-container {
+
+}
+
+.portrait {
+    width: 300px;
+}
+
+.icon {
+    width: 20px;
+}
+
+.thumbnail {
+    height: 140px;
+    object-fit: cover;
+}
