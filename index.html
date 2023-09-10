@@ -9,17 +9,23 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 <body>
-    <div class="about-me-section">
-        <img class="portrait" src="/assets/portrait.jpg" alt="Self portrait of author">
-        <header>
-            <h1>About me</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, magnam neque necessitatibus veniam ipsa mollitia? Nobis cupiditate similique earum tenetur maiores quasi, deserunt repellendus, impedit quos dolor vero totam doloremque?</p>
-            <div class="icons">
-                <i class="devicon-css3-plain"></i>
-                <i class="devicon-html5-plain"></i>
-                <i class="devicon-javascript-plain"></i>
-            </div>
-        </header>
+    <div class="skew-container">
+        <div class="about-me-section">
+            <img class="portrait" src="/assets/portrait.jpg" alt="Self portrait of author">
+            <header>
+                <div class="header-container">
+                    <div class="about-me-text">
+                        <h1>About me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, magnam neque necessitatibus veniam ipsa mollitia? Nobis cupiditate similique earum tenetur maiores quasi, deserunt repellendus, impedit quos dolor vero totam doloremque?</p>
+                    </div>
+                    <div class="icons">
+                        <i class="devicon-css3-plain"></i>
+                        <i class="devicon-html5-plain"></i>
+                        <i class="devicon-javascript-plain"></i>
+                    </div>
+                </div>
+            </header>
+        </div>
     </div>
 
     <main>
@@ -81,15 +87,25 @@
         </div>
     </main>
     <footer>
-        <h2>Contact me</h2>
-        <p>Please get in touch if you think our work could be mutually beneficial!</p>
-        <p>1234 Random Road</p>
-        <p>Random Town, Wisconsin 54410</p>
-        <img class="icon" src="assets/phone-outline.svg" alt="">
-        <p>555.555.5555</p>
-        <img class="icon" src="assets/email-outline.svg" alt="">
-        <p>erichsafford@gmail.com</p>
-        <img class="portrait" src="assets/portrait-2.jpg" alt="">
+        <div class="footer-content">
+            <div class="footer-text">
+                <h2>Contact me</h2>
+                <p>Please get in touch if you think our work could be mutually beneficial!</p>
+                <div class="footer-address">
+                    <p>1234 Random Road</p>
+                    <p>Random Town, Wisconsin 54410</p>
+                </div>
+                <div class="contact-phone">
+                    <img class="icon" src="assets/phone-outline.svg" alt="">
+                    <p>555.555.5555</p>
+                </div>
+                <div class="contact-email">
+                    <img class="icon" src="assets/email-outline.svg" alt="">
+                    <p>erichsafford@gmail.com</p>
+                </div>
+            </div>
+            <img class="portrait" src="assets/portrait-2.jpg" alt="">
+        </div>
     </footer>
 </body>
 </html>
